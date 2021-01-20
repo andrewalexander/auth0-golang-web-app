@@ -6,10 +6,12 @@ require (
 	app v0.0.0
 	auth v0.0.0
 	callback v0.0.0
-
 	github.com/codegangsta/negroni v1.0.0
 	github.com/coreos/go-oidc v2.2.1+incompatible
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/gorilla/mux v1.8.0
+	github.com/sirupsen/logrus v1.7.0
+	go.etcd.io/bbolt v1.3.5 // indirect
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	home v0.0.0
 	login v0.0.0

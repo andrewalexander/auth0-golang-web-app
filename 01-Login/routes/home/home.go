@@ -6,5 +6,6 @@ import (
 )
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
-	templates.RenderTemplate(w, "home", nil)
+	loginUrl := "/login"
+	templates.RenderTemplate(w, "home", loginUrl)
 }
